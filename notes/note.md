@@ -1,1 +1,1 @@
-* carl can't add images
+* invitee on liveshare can't add images
