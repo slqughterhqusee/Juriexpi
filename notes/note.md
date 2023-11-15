@@ -18,3 +18,16 @@ footer
             <li>CR: 2100-7275</li>
         </ul>
     </footer>
+
+    back button
+            <button class="back"> </button>
+
+    cart button
+        <button class="cart"> </button>
+
+    What i need to go over w fast:
+    -shopping cart (& how to make the selections appear in my corresponding pages)
+        ^said he'd manage
+    -how to have the inputted payment info repeated on the confirmation page
+        ^ too hard, just ignore semantic confirmation
+    -itinerary....

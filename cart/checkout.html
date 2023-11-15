@@ -8,21 +8,24 @@
 </head>
 
 <body>
-    <section>
+    <section class="checkout-head">
+        <button class="back"> </button>
+        <button class="cart"> </button>
         <h1>
             Expeditions Checkout
         </h1>
     </section>
     <h2>Step 1: Choose a date</h2>
     <section class="step-1">
-        <label for="validity">Validity Date:</label>
+        <label for="validity">Validity Date:
         <input id=validity type="date">
+    </label>
         <p>Only one validity date may be selected per checkout. If you want to have varying dates between selections, or
             have any purchases be valid on multiple days, please use seperate checkout sessions.</p>
     </section>
     <h2>Step 2: Confirm cart contents</h2>
     <h2>Step 3: Purchase</h2>
-    <section class="step-3">
+    <section class="checkout-base">
         <section class="inputs">
             <input type="text" placeholder="First name">
             <input type="text" placeholder="Last name">
@@ -32,8 +35,22 @@
             <input type="text" placeholder="Phone number">
         </section>
     </section>
-    <br>
-    <!-- add total and notice but put the confirmation ona separate landing page, then have the final landing after that -->
+    <section class="checkout base">
+        <h3>NOTICE</h3>
+        <br>
+        <p>By buying tickets to Jurassic Park, you have signed a waiver and paid a liability fee to any possible thefts,
+            losses, injuries, or deaths. Further, you will not be compensated for the previous list when partaking in
+            Expeditions as well. You may not purchase or partake in Expeditions without reiteration of your agreement to
+            the <a href="placeholder">Terms and Conditions</a> you signed before as well.</p>
+            <br>
+            <label for="termcon"></label>
+            <input id="termcon" type="checkbox">
+            I agree to the liability waiver and Terms and Conditions.</label>
+    </section>
+    <button class="checkout-button">
+        Purchase
+    </button>
+
 </body>
 
 </html>
