@@ -25,6 +25,12 @@ footer
     cart button
         <button class="cart"> </button>
 
+    CSS to change arrow color
+    details summary::-webkit-details-marker {
+  color:red;
+  background:white;
+}
+
     What i need to go over w fast:
     -shopping cart (& how to make the selections appear in my corresponding pages)
         ^said he'd manage
