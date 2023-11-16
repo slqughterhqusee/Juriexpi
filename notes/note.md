@@ -31,3 +31,9 @@ footer
     -how to have the inputted payment info repeated on the confirmation page
         ^ too hard, just ignore semantic confirmation
     -itinerary....
+
+    TO DO:
+    -insert links + titles
+    -add classes to everything
+    -ask fast about how to add the pop-up scheds to the itinerary
+    ^ add html, use css to display:none, then use js for appearance based on click
