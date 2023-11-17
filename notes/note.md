@@ -39,7 +39,4 @@ footer
     -itinerary....
 
     TO DO:
-    -insert links + titles
-    -add classes to everything
-    -ask fast about how to add the pop-up scheds to the itinerary
-    ^ add html, use css to display:none, then use js for appearance based on click
+    add html, use css to display:none, then use js for appearance based on click for itinerary
