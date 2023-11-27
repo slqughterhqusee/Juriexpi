@@ -1,3 +1,13 @@
 .tour-head{
     background-image: url(/images/title-backgrounds/land-cruiser.jpeg);
+    color: #F8f8f0;
+}
+
+.tour-head summary {
+    color:#eeb01f;
+  }
+
+.back {
+    background-image: url(/images/cart-shopping-solid.svg)
+    background-size: 10cm;
 }
