@@ -1,5 +1,19 @@
+/* GENERAL */
+
+.trans-back {
+    background-color: #14183bb2;
+}
+
+
 /* HOME */
 
 .nav-head {
+    display: flex;
+    flex-flow: column nowrap;
     background-image: url(/images/title-backgrounds/home.jpg);
+}
+
+.breaks {
+    background-color:#14183b;
+    text-align:center;
 }
