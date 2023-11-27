@@ -35,11 +35,20 @@ button {
 .breaks {
     background-color:#14183b;
     text-align:center;
+    height: 6rem;
 }
 
 .directory{
     display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.home-back {
+    background-repeat: no-repeat;
+    height:  50rem;
 }
 
 .home-tour {
@@ -47,7 +56,33 @@ button {
 }
 
 .home-log {
-    background-image: url(/images/home/home.jpg);
+    background-image: url(/images/home/log-home.jpg);
 }
 
-.home
+.home-cruise {
+    background-image: url(/images/home/cruise-home.png);
+}
+
+.home-heli {
+    background-image: url(/images/home/heli-home.jpg);
+}
+
+.home-train {
+    background-image: url(/images/home/cab-home.png);
+}
+
+.home-coast {
+    background-image: url(/images/home/coast-home.png);
+}
+
+.home-feed {
+    background-image: url(/images/home/feed-home.png);
+}
+
+.home-dome {
+    background-image: url(/images/home/dome-home.png);
+}
+
+.home-staff {
+    background-image: url(/images/home/staff-home.jpeg);
+}
