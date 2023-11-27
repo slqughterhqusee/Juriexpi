@@ -9,7 +9,16 @@
 
 .cart {
     display: inline-block;
-    background-image: url(/images/cart-shopping-solid.svg);
+    background-image: url(/images/icons/cart-shopping-solid.svg);
+    background-size: contain;
+    height: 2rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+}
+
+.back {
+    display: inline-block;
+    background-image: url(/images/icons/chevron-left-solid.svg);
     background-size: contain;
     height: 2rem;
     width: 2rem;
