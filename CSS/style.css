@@ -43,5 +43,11 @@ button {
 }
 
 .home-tour {
-    background-image: url(/images/);
+    background-image: url(/images/home/tour-home.jpeg);
 }
+
+.home-log {
+    background-image: url(/images/home/home.jpg);
+}
+
+.home
