@@ -7,7 +7,11 @@
     color:#eeb01f;
   }
 
-.back {
-    background-image: url(/images/cart-shopping-solid.svg)
-    background-size: 10cm;
+.cart {
+    display: inline-block;
+    background-image: url(/images/cart-shopping-solid.svg);
+    background-size: contain;
+    height: 2rem;
+    width: 2rem;
+    background-repeat: no-repeat;
 }

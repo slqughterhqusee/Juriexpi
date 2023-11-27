@@ -18,6 +18,11 @@ body {
     text-align: right;
 }
 
+/* BUTTONS */
+button {
+    size: 100px;
+}
+
 
 /* HOME */
 
