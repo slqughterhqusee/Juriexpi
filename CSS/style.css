@@ -1,8 +1,21 @@
 /* GENERAL */
 
+body {
+    background-color:#f8f8f0;
+    color: #f8f8f0;
+}
+
 .trans-back {
     background-color: #14183bb2;
     text-align: center;
+}
+
+.left .trans-back {
+    text-align: left;
+}
+
+.right .trans-back {
+    text-align: right;
 }
 
 
@@ -17,4 +30,13 @@
 .breaks {
     background-color:#14183b;
     text-align:center;
+}
+
+.directory{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.home-tour {
+    background-image: url(/images/);
 }
