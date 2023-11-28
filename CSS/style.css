@@ -8,6 +8,7 @@ body {
 .trans-back {
     background-color: #14183bb2;
     text-align: center;
+    height: 30rem;
 }
 
 .left .trans-back {
@@ -29,13 +30,21 @@ button {
 .nav-head {
     display: flex;
     flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
     background-image: url(/images/title-backgrounds/home.jpg);
+    height:50rem;
+    background-repeat: no-repeat;
 }
 
 .breaks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color:#14183b;
     text-align:center;
     height: 6rem;
+    width: 100rem;
 }
 
 .directory{
@@ -43,12 +52,12 @@ button {
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 .home-back {
     background-repeat: no-repeat;
     height:  50rem;
+    width: 100rem;
 }
 
 .home-tour {
