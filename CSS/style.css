@@ -8,6 +8,12 @@ body {
     background-color: #14183bb2;
     text-align: center;
     height: 30rem;
+    width: 70rem;
+}
+
+.nav-head .trans-back {
+    height: 70rem;
+    width: 70rem;
 }
 
 .left .trans-back {
@@ -32,8 +38,9 @@ button {
     justify-content: center;
     align-items: center;
     background-image: url(/images/title-backgrounds/home.jpg);
-    height:50rem;
+    height:100rem;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .breaks {
@@ -43,7 +50,7 @@ button {
     background-color:#14183b;
     text-align:center;
     height: 6rem;
-    width: 100rem;
+    background-size:
 }
 
 .directory{
