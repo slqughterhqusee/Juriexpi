@@ -1,103 +1,52 @@
-/* GENERAL */
-
-body {
-    background-color:#f8f8f0;
-}
-
-.trans-back {
-    background-color: #14183bb2;
-    text-align: center;
-    height: 30rem;
-    width: 70rem;
-}
-
-.nav-head .trans-back {
-    height: 70rem;
-    width: 70rem;
-}
-
-.left .trans-back {
-    text-align: left;
-}
-
-.right .trans-back {
-    text-align: right;
-}
-
-/* BUTTONS */
-button {
-    size: 100px;
-}
-
-
-/* HOME */
-
 .nav-head {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     background-image: url(/images/title-backgrounds/home.jpg);
     height:100rem;
     background-repeat: no-repeat;
     background-size: cover;
+    color: #f8f8f0;
+    text-align: center;
+}
+
+.directory {
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    color: #f8f8f0;
+}
+
+.trans-back {
+    display: flex;
+    justify-content: space-between;
+    background-color: #14183bda;
+    width: 100rem;
+    height: 35rem;
+    padding-left: 2em;
+}
+
+.home-img img { 
+    height: 35rem;
+}
+
+.nav-head .trans-back {
+    width: 100rem;
+    height: 70rem;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .breaks {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#14183b;
-    text-align:center;
+    background-color: #14183b;
+    background-size: cover;
     height: 6rem;
-    background-size:
+
 }
 
-.directory{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.home-back {
-    background-repeat: no-repeat;
-    height:  50rem;
-    width: 100rem;
-}
-
-.home-tour {
-    background-image: url(/images/home/tour-home.jpeg);
-}
-
-.home-log {
-    background-image: url(/images/home/log-home.jpg);
-}
-
-.home-cruise {
-    background-image: url(/images/home/cruise-home.png);
-}
-
-.home-heli {
-    background-image: url(/images/home/heli-home.jpg);
-}
-
-.home-train {
-    background-image: url(/images/home/cab-home.png);
-}
-
-.home-coast {
-    background-image: url(/images/home/coast-home.png);
-}
-
-.home-feed {
-    background-image: url(/images/home/feed-home.png);
-}
-
-.home-dome {
-    background-image: url(/images/home/dome-home.png);
-}
-
-.home-staff {
-    background-image: url(/images/home/staff-home.jpeg);
+footer {
+    background-color: #14183b;
+    color: #f8f8f0;
+    padding: 1em;
 }
