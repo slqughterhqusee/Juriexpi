@@ -1,10 +1,18 @@
+body {
+    background-color: #5b9767;
+    margin: 0;
+}
+
 .trans-back {
     display: flex;
-    justify-content: space-between;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
     background-color: #14183bda;
     width: 100rem;
     height: 35rem;
     padding-left: 2em;
+    border: 3px solid #236154;
 }
 
 .nav-head {
@@ -13,9 +21,10 @@
     justify-content: center;
     align-items: center;
     background-image: url(/images/title-backgrounds/home.jpg);
-    height:100rem;
+    height: 100rem;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: #f8f8f0;
     text-align: center;
     padding: 1em;
@@ -23,23 +32,30 @@
 
 .nav-head .trans-back {
     padding: 4rem;
-    justify-content: center;
 }
 
 nav {
     margin-top: 5rem;
+    width: 80rem;
     display: flex;
     justify-content: space-around;
 }
 
 .directory {
     display: flex;
-    flex-flow:column;
+    flex-flow: column;
     align-items: center;
     color: #f8f8f0;
 }
 
-.home-img img { 
+.directory .trans-back {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+img {
     height: 35rem;
 }
 
@@ -59,7 +75,7 @@ nav {
     background-size: cover;
     height: 6rem;
     color: #f8f8f0;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -67,7 +83,7 @@ nav {
 footer {
     background-color: #14183b;
     color: #f8f8f0;
-    padding:1em 2em 1em 2em;
+    padding: 1em 2em 1em 2em;
 }
 
 footer ul {
@@ -77,3 +93,207 @@ footer ul {
 footer p {
     font-size: .5em;
 }
+
+
+/* GEN START */
+.cart {
+    display: inline-block;
+    background-image: url(/images/icons/cart-shopping-solid.svg);
+    background-size: contain;
+    height: 5rem;
+    width: 5rem;
+    background-repeat: no-repeat;
+}
+
+.back {
+    display: inline-block;
+    background-image: url(/images/icons/chevron-left-solid.svg);
+    background-size: contain;
+    height: 5rem;
+    width: 5rem;
+    background-repeat: no-repeat;
+}
+
+a {
+    font-size: 2rem;
+}
+
+a:visited {
+    color: #F8f8f0;
+}
+
+h1 {
+    font-size: 10rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h6 {
+    font-size: .6rem;
+    margin: 0;
+}
+
+p {
+    font-size: 2rem;
+}
+
+button {
+    width: 25rem;
+    height: 5rem;
+    font-size: 2rem;
+    color: #f8f8f0;
+    background-color: #eeb01f;
+}
+
+.icons {
+    margin-top: 5em;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label {
+    font-size: 4em;
+}
+
+ul {
+    font-size: 3rem;
+}
+
+small {
+    font-size: .5em;
+}
+
+/* GEN END */
+
+.tour-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F8f8f0;
+    background-image: url(/images/title-backgrounds/land-cruiser.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+summary {
+    color: #eeb01f;
+    font-size: 2em;
+}
+
+.landing-txt-head {
+    text-align: center;
+}
+
+.tour-head .cart,
+.back {
+    width: 3rem;
+    height: 3rem;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-txt {
+    width: 50rem;
+}
+
+.landing-txt p {
+    line-height: 2em;
+}
+
+.landing-main {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em;
+    background-color: #d7d3c6;
+    width: 60%;
+    padding: 2em;
+    border: 5px solid #c29b64;
+}
+
+.landing-break-1 {
+    background-color: #7db8c8;
+    background-size: cover;
+    height: 6rem;
+    color: #14183b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lb-body-1 {
+    display: flex;
+    justify-content: space-around;
+    height: 30rem;
+    margin: 2em;
+    width: 60%;
+    background-color: #d7d3c6;
+    padding: 2em;
+    border: 5px solid #c29b64;
+    text-align: center;
+}
+
+.hours {
+    width: 30%;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lb-body-1 a:visited {
+    color: black;
+}
+
+.lb-body-2 a:visited {
+    color: black;
+}
+
+.landing-break-2 {
+    background-color: #5c443a;
+    background-size: cover;
+    height: 6rem;
+    color: #d7d3d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lb-body-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    margin: 2em;
+    width: 60%;
+    background-color: #d7d3c6;
+    padding: 2em;
+    border: 5px solid #c29b64;
+    text-align: center;
+}
+
+.route {
+    width: 60%;
+}
+
+.route p {
+    line-height: 2em;
+}
+
