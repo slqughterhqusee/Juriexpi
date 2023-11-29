@@ -84,14 +84,15 @@ footer {
     background-color: #14183b;
     color: #f8f8f0;
     padding: 1em 2em 1em 2em;
+    height: 10rem;
 }
 
 footer ul {
-    font-size: .5rem;
+    font-size: 1rem;
 }
 
 footer p {
-    font-size: .5em;
+    font-size: 1em;
 }
 
 
@@ -137,7 +138,7 @@ h2 {
 }
 
 h6 {
-    font-size: .6rem;
+    font-size: 1rem;
     margin: 0;
 }
 
@@ -220,7 +221,7 @@ summary {
     display: flex;
     justify-content: space-around;
     margin: 2em;
-    background-color: #d7d3c6;
+    background-color: #c4c896;
     width: 60%;
     padding: 2em;
     border: 5px solid #c29b64;
@@ -242,7 +243,7 @@ summary {
     height: 30rem;
     margin: 2em;
     width: 60%;
-    background-color: #d7d3c6;
+    background-color: #c4c896;
     padding: 2em;
     border: 5px solid #c29b64;
     text-align: center;
@@ -283,7 +284,7 @@ summary {
     height: 30rem;
     margin: 2em;
     width: 60%;
-    background-color: #d7d3c6;
+    background-color: #c4c896;
     padding: 2em;
     border: 5px solid #c29b64;
     text-align: center;
@@ -297,3 +298,24 @@ summary {
     line-height: 2em;
 }
 
+.booking {
+    background-color: #7db8c8;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40%;
+    padding:10em;
+    margin: 4em;
+}
+
+.booking h2 {
+    font-size: 15em;
+}
+
+.booking button {
+    height: 15rem;
+    width: 60rem;
+    font-size: 3em;
+}
