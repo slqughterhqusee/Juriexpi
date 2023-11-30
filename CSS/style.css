@@ -339,6 +339,60 @@ summary {
     align-items: center;
 }
 
+/* OHHH MY GOD CALENDAR */
+
+.calendar {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    text-align: center;
+    margin: 2em;
+}
+
+.cal-body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5,1fr);
+    width: 100%;    
+    border: 3px solid #14183b;
+}
+
 .cal-numb {
-    border: 2px solid #14183b;
+    border: 1px solid #14183b;
+    height: 2em;
+    padding: 1.5em;
+    text-align: center;
+}
+
+.cal-hell {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* 
+CAL END */
+
+.item {
+    border: 3px solid #14183b;
+    background-color: #d7d3d6;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+    width: 80rem;
+    height: 15rem;
+    margin: 1em;
+}
+
+.item-info {
+    display: flex;
+    flex-flow: column;
+}
+
+.items {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
