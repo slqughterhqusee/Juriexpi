@@ -168,6 +168,7 @@ label {
 
 ul {
     font-size: 3rem;
+    list-style: none;
 }
 
 small {
@@ -321,4 +322,23 @@ summary {
     height: 15rem;
     width: 60rem;
     font-size: 3em;
+}
+
+.label {
+    font-size: 2rem;
+}
+
+.time-table {
+    font-size: 1rem;
+}
+
+.pd-hrs {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cal-numb {
+    border: 2px solid #14183b;
 }
