@@ -424,6 +424,7 @@ CAL END */
     align-items: center;
     background-color: #c4c896;
     padding: 2em;
+    text-align: center;
 }
 
 .checkout-head h1 {
@@ -477,4 +478,13 @@ CAL END */
 .terms-head {
     text-align: center;
     background-color: #9e1d21;
+}
+
+.terms-body ol, p, ul, li {
+    font-size: 1em;
+}
+
+.congrats-button {
+    display: flex;
+    justify-content: space-around;
 }

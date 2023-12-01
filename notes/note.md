@@ -39,4 +39,4 @@ footer
     -itinerary....
 
     TO DO:
-    add html, use css to display:none, then use js for appearance based on click for itinerary
+    checkout fin, staff page
