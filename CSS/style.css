@@ -423,4 +423,58 @@ CAL END */
     justify-content: center;
     align-items: center;
     background-color: #c4c896;
+    padding: 2em;
+}
+
+.checkout-head h1 {
+    font-size: 9em;
+}
+
+.checkout-body {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.step-1, .checkout-base {
+    width: 60%;
+}
+
+.step-1 p {
+    font-size: 1em;
+}
+
+.inputs {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-around;
+    justify-content: space-between;
+    height: 15rem;
+}
+
+.checkout-base {
+    margin-bottom: 1em;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-base p, a, label {
+    font-size: 1em;
+}
+
+.checkout-base a {
+    color: #14183b;
+}
+
+.name {
+    width: 48%;
+}
+
+.terms-head {
+    text-align: center;
+    background-color: #9e1d21;
 }
