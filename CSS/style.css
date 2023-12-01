@@ -13,6 +13,7 @@ body {
     height: 35rem;
     padding-left: 2em;
     border: 3px solid #236154;
+    font-size: 1.5em;
 }
 
 .nav-head {
@@ -154,6 +155,14 @@ button {
     background-color: #eeb01f;
 }
 
+button:hover {
+    background-color:#c4c896;
+}
+
+button:active {
+    background-color:#236154;
+}
+
 .icons {
     margin-top: 5em;
     display: flex;
@@ -253,10 +262,6 @@ summary {
     text-align: center;
 }
 
-.hours {
-    width: 30%;
-}
-
 .landing {
     display: flex;
     justify-content: center;
@@ -296,6 +301,7 @@ summary {
 
 .route {
     width: 60%;
+    text-align: left;
 }
 
 .route p {
@@ -310,7 +316,7 @@ summary {
     align-items: center;
     width: 80%;
     height: 40%;
-    padding:10em;
+    padding: 10em;
     margin: 4em;
 }
 
@@ -332,11 +338,14 @@ summary {
     font-size: 1rem;
 }
 
-.pd-hrs {
+.hours {
+    font-size: 2rem;
+}
+
+.cruise-buttons {
+    width: 100%;
     display: flex;
-    flex-flow: column;
     justify-content: space-around;
-    align-items: center;
 }
 
 /* OHHH MY GOD CALENDAR */
@@ -354,8 +363,8 @@ summary {
 .cal-body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(5,1fr);
-    width: 100%;    
+    grid-template-rows: repeat(5, 1fr);
+    width: 100%;
     border: 3px solid #14183b;
 }
 
@@ -407,8 +416,8 @@ CAL END */
 }
 
 .item img {
-    width:15rem;
-    height:15rem;
+    width: 15rem;
+    height: 15rem;
 }
 
 .check-end {
@@ -439,12 +448,13 @@ CAL END */
     margin: 1em;
 }
 
-.step-1, .checkout-base {
+.step-1,
+.checkout-base {
     width: 60%;
 }
 
 .step-1 p {
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .inputs {
@@ -463,12 +473,24 @@ CAL END */
     align-items: center;
 }
 
-.checkout-base p, a, label {
-    font-size: 1em;
+.checkout-base p,
+a,
+label {
+    font-size: 2rem;
 }
 
 .checkout-base a {
     color: #14183b;
+}
+
+.inputs input {
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+.step-1 input {
+    height: 3rem;
+    font-size: 1.5rem;
 }
 
 .name {
@@ -480,11 +502,100 @@ CAL END */
     background-color: #9e1d21;
 }
 
-.terms-body ol, p, ul, li {
-    font-size: 1em;
+.terms-body {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin: 3em;
+}
+
+.terms-body ul {
+    font-size: 1rem;
+
 }
 
 .congrats-button {
     display: flex;
     justify-content: space-around;
+}
+
+.staff-head {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #14183b;
+}
+
+.staff-main1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em;
+    width: 60vw;
+}
+
+.main-txt {
+    width: 50%;
+    background-color: #c4c896;
+    padding: 1.5em;
+    border: 3px solid #7db8c8;
+}
+
+.cards {
+    width: 28rem;
+    background-color: #c29b64;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    border: 3px solid #c4c896;
+
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d7d3d6;
+}
+
+figcaption {
+    width: 80%;
+    margin: 1em;
+    font-size: 2rem;
+}
+
+.staff {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-sec {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 60vw;
+}
+
+.card-sec .cards {
+    padding: .5em;
+
+}
+
+.card-sec h4,
+h5 {
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    margin: 3em 1em 1em 3em;
+    background-color: #c4c896;
+    width: 40vw;
+    border:3px solid #7db8c8;
+    padding:1em;
 }
