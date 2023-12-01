@@ -3,13 +3,16 @@ body {
     margin: 0;
 }
 
+.expi-body{
+    width: 100vw;
+}
 .trans-back {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
     background-color: #14183bda;
-    width: 100rem;
+    width: 100vw;
     height: 35rem;
     padding-left: 2em;
     border: 3px solid #236154;
@@ -22,16 +25,17 @@ body {
     align-items: center;
     background-image: url(/images/title-backgrounds/home.jpg);
     height: 100rem;
+    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: #f8f8f0;
     text-align: center;
-    padding: 1em;
 }
 
 .nav-head .trans-back {
     padding: 4rem;
+    width: 100vw;
 }
 
 nav {
@@ -46,6 +50,7 @@ nav {
     flex-flow: column;
     align-items: center;
     color: #f8f8f0;
+    width:100vw;
 }
 
 .directory .trans-back {
@@ -72,8 +77,8 @@ img {
 
 .breaks {
     background-color: #14183b;
-    background-size: cover;
     height: 6rem;
+    width: 100vw;
     color: #f8f8f0;
     display: flex;
     justify-content: center;
