@@ -389,10 +389,38 @@ CAL END */
 .item-info {
     display: flex;
     flex-flow: column;
+    font-size: 2em;
 }
 
 .items {
     display: flex;
     flex-flow: column;
     align-items: center;
+}
+
+.item-info label {
+    font-size: 1em;
+}
+
+.item input {
+    width: 10%;
+}
+
+.item img {
+    width:15rem;
+    height:15rem;
+}
+
+.check-end {
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
+
+.checkout-head {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c4c896;
 }
