@@ -3,17 +3,13 @@ body {
     margin: 0;
 }
 
-.expi-body {
-    width: 100vw;
-}
-
 .trans-back {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
     background-color: #14183bda;
-    width: 100vw;
+    width: 100rem;
     height: 35rem;
     padding-left: 2em;
     border: 3px solid #236154;
@@ -26,22 +22,17 @@ body {
     align-items: center;
     background-image: url(/images/title-backgrounds/home.jpg);
     height: 100rem;
-    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: #f8f8f0;
     text-align: center;
-}
-
-.nav-head .trans-back {
-    width: 90vw;
-    height: 60rem;
-    display: flex;
-    flex-flow: column nowrap;
     padding: 1em;
 }
 
+.nav-head .trans-back {
+    padding: 4rem;
+}
 
 nav {
     margin-top: 5rem;
@@ -54,41 +45,39 @@ nav {
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: center;
     color: #f8f8f0;
-    width: 100vw;
 }
 
 .directory .trans-back {
     display: flex;
     flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
-    width: 90vw;
-    padding: 1em;
-}
-
-.directory .trans-back p {
-    width:50%;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 img {
-    height: 30rem;
+    height: 35rem;
 }
 
 .home-txt {
     padding: 1em;
 }
 
+.nav-head .trans-back {
+    width: 100rem;
+    height: 70rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
 .breaks {
     background-color: #14183b;
+    background-size: cover;
     height: 6rem;
-    width: 100vw;
     color: #f8f8f0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
 }
 
 footer {
@@ -321,7 +310,7 @@ summary {
     align-items: center;
     width: 80%;
     height: 40%;
-    padding: 10em;
+    padding:10em;
     margin: 4em;
 }
 
@@ -365,8 +354,8 @@ summary {
 .cal-body {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    width: 100%;
+    grid-template-rows: repeat(5,1fr);
+    width: 100%;    
     border: 3px solid #14183b;
 }
 
