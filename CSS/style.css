@@ -87,7 +87,7 @@ h1 {
 .trans-back {
     background-color: #14183bda;
     border: 3px solid #236154;
-    width: 60vw;
+    width: 80vw;
     color: #f8f8f0;
     display: flex;
     flex-flow: column wrap;
