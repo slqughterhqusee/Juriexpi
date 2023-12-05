@@ -14,7 +14,7 @@ body {
     width: 60vw;
     color: #f8f8f0;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: space-around;
     padding: 2em;
 }
@@ -35,14 +35,9 @@ body {
     justify-content: center;
 }
 
-.directory {
+.row {
     display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-}
-
-.directory .trans-back button {
-    align-self: flex-end;
+    flex-flow: row wrap;
 }
 
 .home-txt {
