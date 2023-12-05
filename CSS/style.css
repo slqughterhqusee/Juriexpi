@@ -156,11 +156,11 @@ button {
 }
 
 button:hover {
-    background-color:#c4c896;
+    background-color: #c4c896;
 }
 
 button:active {
-    background-color:#236154;
+    background-color: #236154;
 }
 
 .icons {
@@ -596,6 +596,6 @@ h5 {
     margin: 3em 1em 1em 3em;
     background-color: #c4c896;
     width: 40vw;
-    border:3px solid #7db8c8;
-    padding:1em;
+    border: 3px solid #7db8c8;
+    padding: 1em;
 }
