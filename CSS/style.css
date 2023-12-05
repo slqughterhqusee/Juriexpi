@@ -11,6 +11,12 @@ body {
 .trans-back {
     background-color: #14183bda;
     border: 3px solid #236154;
+    width: 60vw;
+    color: #f8f8f0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 2em;
 }
 
 .nav-head {
@@ -29,17 +35,39 @@ body {
     justify-content: center;
 }
 
+.directory {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.directory .trans-back button {
+    align-self: flex-end;
+}
+
+.home-txt {
+    width: 40%;
+}
+
+.home-txt button {
+    margin: 3em 0 3em 0;
+}
+
 img {
     height: 35rem;
 }
 
 .breaks {
-    width: 100vw;
-    height: 10vh;
+    width: 60vw;
+    height: 8vh;
+    padding: 0 2em 0 2em;
     text-align: center;
     background-color: #14183b;
     background-size: cover;
     color: #f8f8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
@@ -55,6 +83,14 @@ footer ul, p {
 
 
 /* GEN START */
+p {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 5em;
+}
+
 .cart {
     display: inline-block;
     background-image: url(/images/icons/cart-shopping-solid.svg);
