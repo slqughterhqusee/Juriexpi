@@ -1,6 +1,7 @@
 body {
     background-color: #5b9767;
     margin: 0;
+    padding:0;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -143,7 +144,7 @@ img {
 }
 
 .breaks {
-    width: 60vw;
+    width: 80vw;
     height: 8vh;
     padding: 0 2em 0 2em;
     text-align: center;
@@ -153,6 +154,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 3px solid #14183b;
 }
 
 footer {
@@ -188,6 +190,10 @@ footer h6 {
     background-position: center;
 }
 
+.tour-head .trans-back {
+    height: 40vh;
+}
+
 summary {
     color: #eeb01f;
     font-size: 2em;
@@ -217,6 +223,7 @@ summary {
 .lb1 {
     background-color: #7db8c8;
     color: #14183b;
+    border: 3px solid #7db8c8;
 }
 
 .lb-body-1 {
@@ -241,6 +248,7 @@ summary {
 .lb2 {
     background-color: #5c443a;
     color: #d7d3d6;
+    border: 3px solid #5c443a;
 }
 
 .lb-body-2 {
@@ -265,16 +273,19 @@ summary {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    height: 40%;
-    padding: 10em;
+    width: 60%;
+    padding:2em;
+    border: 5px solid #7db8c8;
+    height: 30vh;
     margin: 4em;
+    font-size: 1.5em;
 }
 
 .booking button {
-    height: 15rem;
-    width: 60rem;
-    font-size: 3em;
+    height: 8vh;
+    width: 15vw;
+    margin: 1em;
+    font-size: 1.5em;
 }
 
 .cruise-buttons {
