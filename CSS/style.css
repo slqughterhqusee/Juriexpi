@@ -1,84 +1,45 @@
 body {
     background-color: #5b9767;
     margin: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 }
 
 .trans-back {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
     background-color: #14183bda;
-    width: 100rem;
-    height: 35rem;
-    padding-left: 2em;
     border: 3px solid #236154;
-    font-size: 1.5em;
 }
 
 .nav-head {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
     background-image: url(/images/title-backgrounds/home.jpg);
     height: 100rem;
+    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: #f8f8f0;
     text-align: center;
     padding: 1em;
-}
-
-.nav-head .trans-back {
-    padding: 4rem;
-}
-
-nav {
-    margin-top: 5rem;
-    width: 80rem;
     display: flex;
-    justify-content: space-around;
-}
-
-.directory {
-    display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     align-items: center;
-    color: #f8f8f0;
-}
-
-.directory .trans-back {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
 }
 
 img {
     height: 35rem;
 }
 
-.home-txt {
-    padding: 1em;
-}
-
-.nav-head .trans-back {
-    width: 100rem;
-    height: 70rem;
-    display: flex;
-    flex-flow: column nowrap;
-}
-
 .breaks {
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
     background-color: #14183b;
     background-size: cover;
-    height: 6rem;
     color: #f8f8f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 footer {
@@ -88,12 +49,8 @@ footer {
     height: 10rem;
 }
 
-footer ul {
+footer ul, p {
     font-size: 1rem;
-}
-
-footer p {
-    font-size: 1em;
 }
 
 
@@ -116,37 +73,6 @@ footer p {
     background-repeat: no-repeat;
 }
 
-a {
-    font-size: 2rem;
-}
-
-a:visited {
-    color: #F8f8f0;
-}
-
-h1 {
-    font-size: 10rem;
-    margin: 0;
-}
-
-h3 {
-    font-size: 4rem;
-    margin: 0;
-}
-
-h2 {
-    font-size: 5rem;
-}
-
-h6 {
-    font-size: 1rem;
-    margin: 0;
-}
-
-p {
-    font-size: 2rem;
-}
-
 button {
     width: 25rem;
     height: 5rem;
@@ -164,37 +90,19 @@ button:active {
 }
 
 .icons {
-    margin-top: 5em;
-    display: flex;
+    display: flex wrap;
     width: 100%;
     justify-content: space-around;
     align-items: center;
 }
 
-label {
-    font-size: 4em;
-}
-
 ul {
-    font-size: 3rem;
     list-style: none;
 }
-
-small {
-    font-size: .5em;
-}
-
 /* GEN END */
 
 .head {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: #F8f8f0;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 50vh;
 }
 
 .tour-head {
@@ -206,33 +114,7 @@ summary {
     font-size: 2em;
 }
 
-.landing-txt-head {
-    text-align: center;
-}
-
-.head .cart,
-.back {
-    width: 3rem;
-    height: 3rem;
-}
-
-.landing {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.landing-txt {
-    width: 50rem;
-}
-
-.landing-txt p {
-    line-height: 2em;
-}
-
 .landing-main {
-    display: flex;
-    justify-content: space-around;
     margin: 2em;
     background-color: #c4c896;
     width: 60%;
@@ -245,14 +127,9 @@ summary {
     background-size: cover;
     height: 6rem;
     color: #14183b;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .lb-body-1 {
-    display: flex;
-    justify-content: space-around;
     height: 30rem;
     margin: 2em;
     width: 60%;
@@ -262,37 +139,14 @@ summary {
     text-align: center;
 }
 
-.landing {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.lb-body-1 a:visited {
-    color: black;
-}
-
-.lb-body-2 a:visited {
-    color: black;
-}
-
 .landing-break-2 {
     background-color: #5c443a;
     background-size: cover;
     height: 6rem;
     color: #d7d3d6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .lb-body-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30rem;
-    margin: 2em;
-    width: 60%;
     background-color: #c4c896;
     padding: 2em;
     border: 5px solid #c29b64;
@@ -320,31 +174,15 @@ summary {
     margin: 4em;
 }
 
-.booking h2 {
-    font-size: 15em;
-}
-
 .booking button {
     height: 15rem;
     width: 60rem;
     font-size: 3em;
 }
 
-.label {
-    font-size: 2rem;
-}
-
-.time-table {
-    font-size: 1rem;
-}
-
-.hours {
-    font-size: 2rem;
-}
-
 .cruise-buttons {
     width: 100%;
-    display: flex;
+    display: flex wrap;
     justify-content: space-around;
 }
 
@@ -375,12 +213,6 @@ summary {
     text-align: center;
 }
 
-.cal-hell {
-    display: flex;
-    justify-content: center;
-
-}
-
 /* 
 CAL END */
 
@@ -407,17 +239,8 @@ CAL END */
     align-items: center;
 }
 
-.item-info label {
-    font-size: 1em;
-}
-
-.item input {
-    width: 10%;
-}
-
 .item img {
-    width: 15rem;
-    height: 15rem;
+    width: 15%;
 }
 
 .check-end {
