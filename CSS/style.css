@@ -65,6 +65,13 @@ ul {
 
 .head {
     color: #F8f8f0;
+    width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
 }
 
 h1 {
@@ -85,6 +92,7 @@ h1 {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
+    align-items: center;
     padding: 2em;
 }
 
@@ -158,7 +166,7 @@ footer {
     flex-flow: column wrap;
 }
 
-footer ul{
+footer ul {
     font-size: 1rem;
     margin: 0;
 }
@@ -175,6 +183,9 @@ footer h6 {
 
 .tour-head {
     background-image: url(/images/title-backgrounds/land-cruiser.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 summary {
@@ -188,12 +199,23 @@ summary {
     width: 60%;
     padding: 2em;
     border: 5px solid #c29b64;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    color: #14183b;
 }
 
-.landing-break-1 {
+.landing-txt {
+    width: 60%;
+}
+
+.landing-txt p {
+    font-size: 2.5em;
+    line-height: 2em;
+}
+
+.lb1 {
     background-color: #7db8c8;
-    background-size: cover;
-    height: 6rem;
     color: #14183b;
 }
 
@@ -205,12 +227,19 @@ summary {
     padding: 2em;
     border: 5px solid #c29b64;
     text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #14183b;
 }
 
-.landing-break-2 {
+.lb-body-1 a:visited {
+    color: #14183b;
+}
+
+.lb2 {
     background-color: #5c443a;
-    background-size: cover;
-    height: 6rem;
     color: #d7d3d6;
 }
 
