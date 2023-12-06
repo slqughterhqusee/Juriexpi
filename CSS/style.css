@@ -9,6 +9,11 @@ body {
     width: 100vw;
 }
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
 /* GEN START */
 p {
     font-size: 2em;
@@ -66,7 +71,7 @@ ul {
 
 .head {
     color: #F8f8f0;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -185,6 +190,55 @@ footer h6 {
 
 .tour-head {
     background-image: url(/images/title-backgrounds/land-cruiser.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.log-head {
+    background-image: url(/images/title-backgrounds/log-ride.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cab-head {
+    background-image: url(/images/title-backgrounds/caboose-cut-thru.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cruise-head {
+    background-image: url(/images/title-backgrounds/cruise.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.feed-head {
+    background-image: url(/images/title-backgrounds/dino-feeding.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heli-head {
+    background-image: url(/images/title-backgrounds/helicopter-tour.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dome-head {
+    background-image: url(/images/title-backgrounds/pterodactyl-dome.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.coaster-head {
+    background-image: url(/images/title-backgrounds/raptor-runner.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
