@@ -1,0 +1,31 @@
+.tour-head{
+    background-image: url(/images/title-backgrounds/land-cruiser.jpeg);
+    color: #F8f8f0;
+    background-size: cover;
+}
+
+.tour-head summary {
+    color:#eeb01f;
+  }
+
+.cart {
+    display: inline-block;
+    background-image: url(/images/icons/cart-shopping-solid.svg);
+    background-size: contain;
+    height: 2rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+}
+
+.back {
+    display: inline-block;
+    background-image: url(/images/icons/chevron-left-solid.svg);
+    background-size: contain;
+    height: 2rem;
+    width: 2rem;
+    background-repeat: no-repeat;
+}
+
+.landing-main {
+    
+}
