@@ -2,6 +2,9 @@ body {
     background-color: #5b9767;
     margin: 0;
     padding:0;
+}
+
+.wrapper {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
@@ -58,10 +61,7 @@ button:active {
 }
 
 .icons {
-    display: flex wrap;
     width: 100%;
-    justify-content: space-around;
-    align-items: center;
     margin-top: 2em;
 }
 
@@ -281,7 +281,6 @@ summary {
 }
 
 .lb-body-1 {
-    height: 30rem;
     margin: 2em;
     width: 60%;
     background-color: #c4c896;
@@ -456,6 +455,14 @@ CAL END */
     flex-flow: column;
     justify-content: center;
     align-items: center;
+
+}
+
+.checkout-body {
+    background-color: #b2a696;
+    border: 3px solid #c4c896;
+    width: 80%;
+    padding:2em;
 }
 
 .checkout-base p,
@@ -466,6 +473,12 @@ label {
 
 .checkout-base a {
     color: #14183b;
+}
+
+.inputs{
+    background-color: #eeb01f;
+    padding:1em;
+    margin: 1em;
 }
 
 .inputs input {
@@ -583,4 +596,8 @@ h5 {
     width: 40vw;
     border: 3px solid #7db8c8;
     padding: 1em;
+}
+
+.checkout-head {
+    color:#14183b;
 }

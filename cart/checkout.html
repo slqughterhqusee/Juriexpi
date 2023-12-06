@@ -18,24 +18,25 @@
             <a class="back" href="/index.html"> </a>
         </section>
     </section>
-    <section class="checkout-body">
-        <h2>Step 1: Choose a date</h2>
-        <section class="step-1">
-            <section class="check-cal">
-                <label>Validity Date:
-                    <input id=validity type="date">
-                </label>
+    <section class="wrapper">
+        <section class="checkout-body">
+            <h2>Step 1: Choose a date</h2>
+            <section class="step-1">
+                <section class="check-cal">
+                    <label>Validity Date:
+                        <input id=validity type="date">
+                    </label>
+                </section>
+                <section class="check-disclaim">
+                    <p>
+                        Only one validity date may be selected per checkout. If you want to have varying dates between
+                        selections or
+                        have any purchases be valid on multiple days, please use seperate checkout sessions.
+                    </p>
+                </section>
             </section>
-            <section class="check-disclaim">
-                <p>
-                    Only one validity date may be selected per checkout. If you want to have varying dates between
-                    selections or
-                    have any purchases be valid on multiple days, please use seperate checkout sessions.
-                </p>
-            </section>
-        </section>
-        <h2>Step 2: Purchase</h2>
-        <section class="checkout-base">
+            <h2>Step 2: Purchase</h2>
+
             <form class="inputs">
                 <input type="text" placeholder="First name" class="name">
                 <input type="text" placeholder="Last name" class="name">
@@ -44,8 +45,7 @@
                 <input type="text" placeholder="Email address" class="name">
                 <input type="text" placeholder="Phone number" class="name">
             </form>
-        </section>
-        <section class="checkout-base">
+
             <h3>NOTICE</h3>
             <br>
             <p>By buying tickets to Jurassic Park, you have signed a waiver and paid a liability fee to any possible
@@ -57,19 +57,39 @@
                 the <a href="terms-and-conditions.html">Terms and Conditions</a> you signed before as well.</p>
             <br>
             <section class="termcon">
-            <label>
-                <input type="checkbox">
-                I agree to the liability waiver and Terms and Conditions.
-            </label>
+                <label>
+                    <input type="checkbox">
+                    I agree to the liability waiver and Terms and Conditions.
+                </label>
+            </section>
+
+            <section class="check-end">
+                <a href="../cart/checkout-finish.html">
+                    <button class="checkout-button">
+                        Purchase
+                    </button>
+                </a>
+            </section>
         </section>
-        </section>
-        <section class="check-end">
-            <a href="../cart/checkout-finish.html">
-                <button class="checkout-button">
-                    Purchase
-                </button>
-            </a>
-        </section>
+        <br>
+        <footer>
+            <p>
+                By purchasing a ticket to Jurassic park, you have signed a waiver and paid a liability fee. Jurassic
+                Park is
+                not liable for any injury that may occur to you during any Experiences you may participate in during
+                your
+                time here.
+            </p>
+            <br>
+            <h6>
+                Contact us:
+            </h6>
+            <ul>
+                <li>JurassicExpeditions@gmail.com</li>
+                <li>US: +1 (805)3466-7275</li>
+                <li>CR: 2100-7275</li>
+            </ul>
+        </footer>
     </section>
 </body>
 
