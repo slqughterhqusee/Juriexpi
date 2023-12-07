@@ -26,6 +26,16 @@ h2 {
     font-size: 5em;
 }
 
+h4 {
+    font-size: 3em;
+    margin: .5em;
+}
+
+h5 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
 .cart {
     display: inline-block;
     background-image: url(/images/icons/cart-shopping-solid.svg);
