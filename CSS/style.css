@@ -394,25 +394,31 @@ CAL END */
     justify-content: space-between;
     padding: 1.5em;
     width: 80rem;
-    height: 15rem;
     margin: 1em;
 }
 
 .item-info {
     display: flex;
     flex-flow: column;
+    align-items: center;
+    justify-content: center;
     font-size: 2em;
 }
 
-.items {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
+.item img {
+    width: 20%;
+    height: 99%;
 }
 
-.item img {
-    width: 15%;
+.item select {
+    width: 90%;
+    height:50%;
+    font-size: .8em;
 }
+
+.checkbox {
+    width: 5rem;
+} 
 
 .check-end {
     display: flex;
