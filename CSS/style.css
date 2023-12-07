@@ -1,9 +1,14 @@
+@font-face {
+    font-family: "Jurassic Park";
+    src: url(Jurassic-Park.ttf);
+}
+
 .wrapper {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 body {
@@ -20,6 +25,11 @@ html {
 /* GEN START */
 p {
     font-size: 2em;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "Jurassic Park";
 }
 
 h2 {
@@ -90,14 +100,6 @@ ul {
     text-align: center;
 }
 
-h1 {
-    font-size: 3em;
-}
-
-/* h1 {
-    font-size: em;
-} */
-
 /* GEN END */
 
 .trans-back {
@@ -115,13 +117,12 @@ h1 {
 .nav-head {
     background-image: url(/images/title-backgrounds/home.jpg);
     height: 100rem;
-    width: 100vw;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
     color: #f8f8f0;
     text-align: center;
-    padding: 1em;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -175,12 +176,13 @@ img {
 footer {
     background-color: #14183b;
     color: #f8f8f0;
-    margin-top: 2em;
-    padding: 2em;
-    width: 100vw;
-    height: 10vh;
+    margin-top: 1.5em;
+    padding: 2em 0 1em 1.5em;
+    width: 100%;
+    height: 15vh;
     display: flex;
     flex-flow: column wrap;
+    box-sizing: border-box;
 }
 
 footer ul {
@@ -357,35 +359,22 @@ summary {
     justify-content: space-around;
 }
 
-/* OHHH MY GOD CALENDAR */
-
-.calendar {
+.cal-wrapper {
     display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-    text-align: center;
-    margin: 2em;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #c4c896;
+    margin: 5em;
+    width: 90%;
+    font-size: 2em;
+    line-height: 2em;
+    border: 3px solid #7db8c8;
 }
 
-.cal-body {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    width: 100%;
-    border: 3px solid #14183b;
+.itin-head {
+    background-color: #5c443a;
 }
 
-.cal-numb {
-    border: 1px solid #14183b;
-    height: 2em;
-    padding: 1.5em;
-    text-align: center;
-}
-
-/* 
-CAL END */
 
 .item {
     border: 3px solid #14183b;
@@ -561,9 +550,9 @@ label {
 }
 
 .main-txt {
-    width: 50%;
+    width: 60%;
     background-color: #c4c896;
-    padding: 1.5em;
+    padding: 2em;
     border: 3px solid #7db8c8;
 }
 
@@ -576,6 +565,10 @@ label {
     border: 3px solid #c4c896;
     background-color: #c29b64;
     padding: 1em;
+}
+
+.cards a:visited {
+    color:#14183b;
 }
 
 .card-sec {
