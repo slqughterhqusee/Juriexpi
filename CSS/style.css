@@ -675,7 +675,7 @@
   }
 
   .nav-head .trans-back {
-    height:90%;
+    height:85%;
   }
 
     img {
@@ -707,7 +707,27 @@
   }
 
   .booking button {
-    width: 100%;
+    width: 15rem;
     margin:0;
+  }
+
+  .item {
+    width: 80%;
+  }
+
+  .item-info h4 {
+    font-size: 1rem;
+  }
+
+  .item-info label {
+    font-size:1rem;
+  }
+
+  .checkout-button {
+    width: 25rem;
+  }
+
+  .checkout-body p {
+    font-size: 1em;
   }
   }
