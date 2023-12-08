@@ -514,6 +514,11 @@
       color: #14183b;
   }
 
+  .termcon label {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1em;
+  }
+
   .inputs {
       background-color: #eeb01f;
       padding: 1em;
@@ -729,5 +734,23 @@
 
   .checkout-body p {
     font-size: 1em;
+  }
+
+  .name {
+    width: 40%;
+  }
+
+  .inputs input{
+    height: 10%;
+    font-size: .8em;
+  }
+
+  .terms-body {
+    padding: 1em;
+  }
+
+  .checkout-finish button {
+    width: 8rem;
+    margin: .5em;
   }
   }
