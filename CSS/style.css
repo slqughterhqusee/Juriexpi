@@ -645,7 +645,7 @@
     }
 
       h1 {
-          font-size: 1.3em;
+          font-size: 1em;
       }
 
       h2 {
@@ -665,6 +665,14 @@
 
       label, ul {
         padding: 0;
+      }
+
+      .icons {
+        margin: .5em;
+      }
+
+      nav {
+        margin: .5em;
       }
 
   .trans-back {
