@@ -143,7 +143,6 @@
 
   .nav-head {
       background-image: url(/images/title-backgrounds/home.jpg);
-      width: 100%;
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -226,56 +225,56 @@
 
   .tour-head {
       background-image: url(/images/title-backgrounds/land-cruiser.jpeg);
-      background-size: 100%;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
   }
 
   .log-head {
       background-image: url(/images/title-backgrounds/log-ride.jpg);
-      background-size: 100%;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
   }
 
   .cab-head {
       background-image: url(/images/title-backgrounds/caboose-cut-thru.png);
-      background-size: 100%;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
   }
 
   .cruise-head {
       background-image: url(/images/title-backgrounds/cruise.png);
-      background-size: 100%;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
   }
 
   .feed-head {
       background-image: url(/images/title-backgrounds/dino-feeding.png);
-      background-size: 100%;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
   }
 
   .heli-head {
       background-image: url(/images/title-backgrounds/helicopter-tour.jpg);
-      background-size: 100%;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
   }
 
   .dome-head {
       background-image: url(/images/title-backgrounds/pterodactyl-dome.png);
-      background-size: 100%;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
   }
 
   .coaster-head {
       background-image: url(/images/title-backgrounds/raptor-runner.png);
-      background-size: 100%;
+      background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
   }
@@ -634,6 +633,10 @@
   }
 
   @media only screen and (max-width: 640px) {
+    .wrapper {
+        flex-flow:column nowrap;
+    }
+
       h1 {
           font-size: 2.5em;
       }
@@ -649,8 +652,12 @@
           font-size: 1.5em;
       }
 
-      p, summary, ol, ul, li {
-        font-size: 1em;
+      p, summary, ol, ul, li, a {
+        font-size: 1rem;
+      }
+
+      label, ul {
+        padding: 0;
       }
 
   .trans-back {
@@ -665,6 +672,10 @@
 
   .trans-back h3 {
       font-size: 1em;
+  }
+
+  .nav-head .trans-back {
+    height:90%;
   }
 
     img {
@@ -693,5 +704,10 @@
 
   .landing-txt p {
     font-size: 1em;
+  }
+
+  .booking button {
+    width: 100%;
+    margin:0;
   }
   }
