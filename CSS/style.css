@@ -625,11 +625,11 @@ label {
 
 @media only screen and (max-width: 320px) {
     h1 {
-        font-size: 3em;
+        font-size: 4em;
     }
 
     h2 {
-        font-size: 2em;
+        font-size: 3em;
     }
 
     h3, h4, h5, h6 {
@@ -645,5 +645,11 @@ label {
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: .5em;
+    }
+
+    button {
+        width: 30%;
+        font-size: 1em;
     }
 }
