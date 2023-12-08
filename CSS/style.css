@@ -647,7 +647,7 @@
       }
 
       h2 {
-          font-size: 1.2em;
+          font-size: 2em;
       }
 
       h3,
@@ -682,6 +682,10 @@
   .nav-head .trans-back {
     height:85%;
   }
+
+.nav-head .trans-back h3 {
+    font-size: 1.5rem;
+}
 
     img {
       width: 90%;
