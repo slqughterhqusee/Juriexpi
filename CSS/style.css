@@ -1,5 +1,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Slackey&display=swap');
 
   .wrapper {
       display: flex;
@@ -30,6 +31,7 @@
   h1 {
       font-size: 5em;
       margin: 0;
+      font-family: "Slackey", sans-serif;
   }
 
   h2 {
@@ -643,7 +645,7 @@
     }
 
       h1 {
-          font-size: 1.5em;
+          font-size: 1.3em;
       }
 
       h2 {
