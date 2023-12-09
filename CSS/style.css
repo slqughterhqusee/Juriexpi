@@ -664,6 +664,21 @@
       width: 80%;
   }
 
+  @media only screen and (max-width: 1960px) {
+    .staff-main1 {
+        flex-flow: row wrap;
+        width: 90%;
+    }
+
+    .main-txt {
+        width: 50%;
+    }
+
+    .cards {
+        margin-top: .5em;
+    }
+  }
+
   @media only screen and (max-width: 640px) {
     .wrapper {
         flex-flow:column nowrap;
