@@ -163,6 +163,7 @@
 
   .nav-head .trans-back {
       font-size: 2em;
+      height: 70%;
   }
 
   .nav-head a {
@@ -190,6 +191,10 @@
   img {
       height: 35rem;
   }
+
+.landing-main img {
+    height: 30rem;
+}
 
   .breaks {
       width: 80vw;
