@@ -23,13 +23,13 @@
 
   /* GEN START */
   p {
-      font-size: 1.5em;
+      font-size: 2em;
       font-family: 'Oxygen', sans-serif;
       line-height: 2em;
   }
 
   h1 {
-      font-size: 1.5em;
+      font-size: 3em;
       margin: 0;
       font-family: "Slackey", sans-serif;
   }
@@ -39,7 +39,7 @@
   }
 
   h3 {
-      font-size: .8em;
+      font-size: 1.5em;
       margin: 0;
   }
 
@@ -168,7 +168,7 @@
 
   .nav-head a {
       color: #f8f8f0;
-      font-size: .6em;
+      font-size: 1em;
   }
 
   .nav-head a:visited {
@@ -300,10 +300,6 @@
       background-position: center;
   }
 
-  .tour-head .trans-back {
-      height: 40vh;
-  }
-
   summary {
       color: #eeb01f;
       font-size: 1.8em;
@@ -332,7 +328,7 @@
   }
 
   .landing-txt p {
-      font-size: 1.5em;
+      font-size: 2em;
       line-height: 2em;
   }
 
@@ -362,11 +358,12 @@
 
   .lb-body-1 a {
       color: #14183b;
-      font-size: 1.5rem;
+      font-size: 1em;
   }
 
   .lb-body-1 ul {
       padding: 0;
+      font-size: 1em;
   }
 
   .hours label ul a {
@@ -665,7 +662,7 @@
 
   .cards a {
       color: #14183b;
-      font-size: 1.5rem;
+      font-size: 1em;
   }
 
   .card-sec {
