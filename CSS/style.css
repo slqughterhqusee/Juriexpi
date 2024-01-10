@@ -72,7 +72,7 @@
   }
 
   ::selection {
-    background-color: #e61e28;
+      background-color: #e61e28;
   }
 
   .item label {
@@ -192,9 +192,9 @@
       height: 35rem;
   }
 
-.landing-main img {
-    height: 30rem;
-}
+  .landing-main img {
+      height: 30rem;
+  }
 
   .breaks {
       width: 80vw;
@@ -237,11 +237,11 @@
   }
 
   footer a {
-    color: #f8f8f0;
+      color: #f8f8f0;
   }
 
   footer a:visited {
-    color: #f8f8f0;
+      color: #f8f8f0;
   }
 
   .tour-head {
@@ -307,7 +307,7 @@
   }
 
   details {
-    margin: 1em;
+      margin: 1em;
   }
 
   details p {
@@ -375,7 +375,7 @@
   }
 
   .bullet {
-    list-style-type: circle;
+      list-style-type: circle;
   }
 
   .lb2 {
@@ -793,15 +793,15 @@
       }
 
       footer p {
-        font-size: .6rem;
+          font-size: .6rem;
       }
 
       footer h6 {
-        font-size: .6rem;
+          font-size: .6rem;
       }
 
       footer li {
-        font-size: .6rem;
+          font-size: .6rem;
       }
 
       .cart,
@@ -903,40 +903,52 @@
       }
 
       details p {
-        font-size: .7rem;
+          font-size: .7rem;
       }
   }
 
   @media only screen and (max-width: 1960px) {
-    h1 {
-        font-size: 1.5em;
-    }
+      h1 {
+          font-size: 1.5em;
+      }
 
-    p {
-        font-size: 1.5em;
-    }
+      p {
+          font-size: 1.5em;
+      }
 
-    h3 {
-        font-size: .8em;
-    }
+      h3 {
+          font-size: .8em;
+      }
 
-    .nav-head a {
-        font-size: .6em;
-    }
+      .nav-head a {
+          font-size: .6em;
+      }
 
-    .tour-head .trans-back {
-        height: 40vh;
-    }
+      .tour-head .trans-back {
+          height: 40vh;
+      }
 
-    .landing-txt p {
-        font-size: 1.5em;
-    }
+      .landing-txt p {
+          font-size: 1.5em;
+      }
 
-    .lb-body-1 a {
-        font-size: 1.5rem;
-    }
+      .lb-body-1 a {
+          font-size: 1.5rem;
+      }
 
-    .cards a {
-        font-size: 1.5rem;
-    }
+      .cards a {
+          font-size: 1.5rem;
+      }
+
+      .cal-wrapper {
+          margin: .5em;
+      }
+
+      .itin-head {
+          padding-bottom: 1em;
+      }
+
+      .time-table li {
+          font-size: .8em;
+      }
   }
