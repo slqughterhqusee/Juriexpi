@@ -432,7 +432,7 @@
       flex-flow: row wrap;
       justify-content: space-around;
       background-color: #c4c896;
-      margin: 5em;
+      margin: 5em 0 5em 0;
       width: 90%;
       font-size: 2em;
       line-height: 2em;
