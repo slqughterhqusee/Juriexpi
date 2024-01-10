@@ -957,4 +957,12 @@
       .time-table li {
           font-size: .8em;
       }
+
+      .lb-body-1 li {
+        font-size: 1em;
+      }
+
+      .lb-body-1 .hours {
+        width: 50%;
+      }
   }
