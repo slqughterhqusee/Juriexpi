@@ -906,3 +906,37 @@
         font-size: .7rem;
       }
   }
+
+  @media only screen and (max-width: 1960px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: .8em;
+    }
+
+    .nav-head a {
+        font-size: .6em;
+    }
+
+    .tour-head .trans-back {
+        height: 40vh;
+    }
+
+    .landing-txt p {
+        font-size: 1.5em;
+    }
+
+    .lb-body-1 a {
+        font-size: 1.5rem;
+    }
+
+    .cards a {
+        font-size: 1.5rem;
+    }
+  }
